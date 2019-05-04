@@ -15,6 +15,7 @@ Sobre o trabalho:
 
 Foram usados dois brokers MQTT: O Mosquitto, implementado com a linguagem C; e o PAHO MQTT, implementado usando a linguagem python. Um dispositivo móvel com um aplicativo para enviar mensagens ao broker e um Raspberry Pi 3 com broker mosquito, no papel de servidor.
 
+![alt text](https://github.com/Rouem/Atividade-6-Msg-e-IoT/blob/master/diagSD.jpg)
  
 O computador possui os dois brokers (PAHO e Mosquitto) e usando simultaneamente como subscribers (ouvintes ou observadores). Seu papel principal é agir como um monitor para visualização do tráfego de mensagens entre o dispositivo móvel e o broker servidor. O PAHO foi utilizado na implementação do monitor para que fosse possível visualizar quais tópicos estavam sendo acessados pelo aplicativo.
 O Raspberry possui o papel de servidor, tendo o broker Mosquitto implentado para a comunicação de mensagens.
